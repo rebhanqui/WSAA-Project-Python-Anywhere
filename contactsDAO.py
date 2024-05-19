@@ -6,11 +6,11 @@ import mysql.connector
 #the encapsulation layer between the application and the database etc
 class ContactsDAO:
     def __init__(self, **database_config):
-        #initializing the database config
-        self.host = database_config.get("host", "127.0.0.1")
-        self.user = database_config.get('user', 'root')
-        self.password = database_config.get('password', '')
-        self.database = database_config.get('database', 'contacts')
+        #initializing the database config for pythonanywhere
+        self.host = database_config.get("host", "rebhanqui.mysql.pythonanywhere-services.com")
+        self.user = database_config.get('user', 'rebhanqui')
+        self.password = database_config.get('password', 'riqqU0-kovjov-buvhox')
+        self.database = database_config.get('database', 'rebhanqui$contacts')
         self.connection = None
 
     def connect(self):

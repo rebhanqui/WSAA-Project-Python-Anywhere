@@ -1,6 +1,6 @@
 DATABASE_CONFIG = {
-    'host': '127.0.0.1',
-    'user': 'root',
-    'password': '',
-    'database': 'contacts'
+        'host': 'rebhanqui.mysql.pythonanywhere-services.com',
+        'user': 'rebhanqui',
+        'password': 'riqqU0-kovjov-buvhox',
+        'database': 'rebhanqui$contacts'
 }
